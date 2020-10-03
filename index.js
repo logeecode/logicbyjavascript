@@ -36,3 +36,19 @@ function squareDigits(num){
 function squareDigits(num){
   return parseInt(num.toString().split('').map(digit => { return Math.pow(digit, 2); }).join(''));
 }
+
+// Question 3 Running out of space:
+/* Write a function that removes the spaces from the values and 
+   returns an array showing the space decreasing. For example, running this function on the array ['i', 'have','no','space'] 
+   would produce ['i','ihave','ihaveno','ihavenospace']. */
+
+function spacey(array){
+  let i = 0, temp = [], word = '';
+  do {
+    temp.push(word += array[i]);
+    i++
+  }
+  while (i < array.length);
+    
+  return temp
+}
