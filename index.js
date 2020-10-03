@@ -50,5 +50,5 @@ function spacey(array){
   }
   while (i < array.length);
     
-  return temp;;
+  return temp;
 }
