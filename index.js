@@ -23,6 +23,16 @@ function accum(s) {
 // Question 2 Square Every Digit:
 /* You are asked to create a function that square every digit of a number and concatenate them */
 
+// 1
+function squareDigits(num){
+  let arr = [], digits = num.toString().split('');
+  digits.map(digit => {
+    arr.push(Math.pow(parseInt(digit), 2))
+  });
+  return parseInt(arr.join(''))
+}
+
+// 2
 function squareDigits(num){
   return parseInt(num.toString().split('').map(digit => { return Math.pow(digit, 2); }).join(''));
 }
