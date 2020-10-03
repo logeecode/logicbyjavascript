@@ -21,5 +21,12 @@ The question must be insert in this file with title and question itself, then yo
   ```
     Kevin is noticing his space run out!
 
-   Write a function that removes the spaces from the values and returns an array showing the space decreasing. For example, running this function on the array ['i', 'have','no','space'] would produce ['i','ihave','ihaveno','ihavenospace'].
+    Write a function that removes the spaces from the values and returns an array showing the space decreasing. For example, running this function on the array ['i', 'have','no','space'] would produce ['i','ihave','ihaveno','ihavenospace'].
+   ```
+<span>4.</span> Sum of two lowest positive integers<br/>
+  ```
+    Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+    For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+    [10, 343445353, 3453445, 3453545353453] should return 3453455.
    ```
