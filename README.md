@@ -1,6 +1,6 @@
 # logicbyjavascript
 This repo is for store javascript common question logic on interview.
-The question must be insert in this file with title and question itself, then you must make a new branch name it like the question title then code the solution in index.js file
+The question must be insert in this file with title and question itself, then you must code the solution in index.js file
 
 ## List of question
 <span>1.</span> Mumbling<br/>
