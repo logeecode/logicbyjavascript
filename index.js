@@ -1,4 +1,4 @@
-// Question:
+// Question 1 Mumbling:
 /* Create a function called mumbling with string parameter then return like this example below:
 
      mumbling("abcd") -> "A-Bb-Ccc-Dddd"
@@ -18,4 +18,11 @@ function accum(s) {
     }
   }
   return string.join('');
+}
+
+// Question 2 Square Every Digit:
+/* You are asked to create a function that square every digit of a number and concatenate them */
+
+function squareDigits(num){
+  return parseInt(num.toString().split('').map(digit => { return Math.pow(digit, 2); }).join(''));
 }
