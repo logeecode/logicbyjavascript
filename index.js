@@ -64,3 +64,31 @@ function sumTwoSmallestNumbers(numbers) {
   let sort = numbers.sort((a,b) => b - a);
   return sort[sort.length - 1] + sort[sort.length - 2];
 }
+
+// Question 5 Get the averages of the numbers bellow:
+/* Write a method, that gets an array of integer-numbers and return an array of the averages of each integer-number and his follower, if there is one.
+
+Example, input [ 1, 3, 5, 1, -10] then output should be [ 2, 4, 3, -4.5] 
+
+If the array has 0 or 1 values or is null, your method should return an empty array. */
+
+// 1
+function averages(numbers) {
+  let result = [];
+  
+  if (numbers != null) {
+
+    numbers.map((itm, idx) => {
+      if (idx !== numbers.length -1) {
+        result.push((numbers[idx] + numbers[idx+1]) / 2)
+      }
+    })
+  }
+  
+  return result;
+}
+
+// 2
+function averages(numbers) {
+  return numbers ? numbers.map((v, i, a) => (v + a[i + 1]) / 2).slice(0, -1) : [];
+}
