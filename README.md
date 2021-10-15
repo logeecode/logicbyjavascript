@@ -30,3 +30,11 @@ The question must be insert in this file with title and question itself, then yo
     For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
     [10, 343445353, 3453445, 3453545353453] should return 3453455.
    ```
+
+<span>5.</span> Get the averages of the numbers<br/>
+  ```
+  Write a method, that gets an array of integer-numbers and return an array of the averages of each integer-number and his follower, if there is one.
+  If the array has 0 or 1 values or is null, your method should return an empty array.
+
+  Example, input [ 1, 3, 5, 1, -10] then output should be [ 2, 4, 3, -4.5]
+  ```
