@@ -56,3 +56,26 @@ The question must be insert in this file with title and question itself, then yo
   
   The other letters don't have power and are only victims.
   ```
+
+<span>7.</span> Get n smallest elements of a array<br/>
+  ```
+  Write a method, that gets an array of integer-numbers and returns n smallest number(s) (unique only) from it
+
+  Example:-
+  Input: [2, -3, -3, 4, 1, 2, 8, 9, 0, 4, 3], n = 2
+  Output: [ -3, 0 ]
+  
+  Note: If there are less than n elements then throw a error
+  ```
+
+  
+<span>8.</span> Get n largest elements of a array<br/>
+  ```
+  Write a method, that gets an array of integer-numbers and returns n largest number(s) (unique only) from it
+
+  Example:-
+  Input: [2, -3, -3, 4, 1, 2, 8, 9, 0, 4, 3], n = 2
+  Output: [ 9, 8 ]
+  
+  Note: If there are less than n elements then throw a error
+  ```

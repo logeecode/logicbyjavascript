@@ -111,7 +111,7 @@ function getSmallest(numbers, n) {
   return sorted.slice(0, n);
 }
 
-// Question 7 Get n smallest elements of a array
+// Question 7 Get n largest elements of a array
 /**
  *  Write a method, that gets an array of integer-numbers and returns n largest number(s) (unique only) from it
  * 
